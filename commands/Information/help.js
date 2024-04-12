@@ -12,8 +12,8 @@ module.exports = {
       try{
         let string = `:white_check_mark: Type \`${prefix}commands\` for a list of Commands\n\n:question: New to **Kronix x Rythm**? Check out our [Rythm's FAQ](https://rythm.fm/docs/faq/)\n\n:page_facing_up: Still need help? [Click here](https://discord.gg/7cRESnhZUm) to join our [Discord server](https://discord.gg/7cRESnhZUm)`
         let embed = new MessageEmbed()
-        .setTitle("Kronix x Rythm Help")
-        .setURL("https://discord.gg/7cRESnhZUm")
+        .setTitle("Abhinav x Error Help")
+        .setURL("https://discord.gg/zDXDfETP")
         .setDescription(string)
         if(message.guild.me.permissionsIn(message.channel).has("EMBED_LINKS")){
           message.reply(embed)
